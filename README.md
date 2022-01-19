@@ -1,4 +1,4 @@
-# Generation Singapore Junior Full Stack Developer - Final Project: Mices, Computer Parts eCommerce website
+#Final Project: Mices, Computer Parts eCommerce website
 
 Our fictious customer want to explore an eCommerce website for their booming computer parts business. Our team came out with a minimal viable product (MVP) by developing web application. 
 
