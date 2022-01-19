@@ -41,8 +41,8 @@ Allow user to add products/post
 
 ## Deadline
 
-Submission  : 29 Mar 2022
-Presntation : 29-30 Mar 2022
+- Submission    : 29 Mar 2022
+- Presentation  : 29-30 Mar 2022
 
 ### Screenshot
 
@@ -71,9 +71,9 @@ To be added.
 
 ## Acknowledgments
 
-Jean Looi, our Lecturer for our course
-the wonderful team from Generation Singapore
-Cornelius Chao
-Christmin Koh
-Ong Wei Chin
-Gareth Fong
+- Jean Looi, our Lecturer for our course
+- the wonderful team from Generation Singapore
+- Cornelius Chao
+- Christmin Koh
+- Ong Wei Chin
+- Gareth Fong
