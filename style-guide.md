@@ -2,23 +2,25 @@
 
 ## Layout
 
+### Breakpoints
 The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
+- very-small: 320px;
+- small-breakpoint: 480px;
+- large-breakpoint: 960px;
+- medium-breakpoint: 720px;
+- wide-breakpoint: 1200px;
 
 ## Colors
 
 ### Primary
-
-Bright orange: hsl(31, 77%, 52%)
-Dark cyan: hsl(184, 100%, 22%)
-Very dark cyan: hsl(179, 100%, 13%)
+- white: hsl(210, 14%, 95%)
+- matt grey: hsl(0, 0%, 15%)
+- dark yellow: hsl(45, 99%, 70%)
 
 ### Neutral
 
-Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
-Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+- Transparent white (paragraphs): hsla(210, 10%, 95%, 0.75)
+- Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
 
 ## Typography
 

@@ -2,6 +2,8 @@
 @import url("https://fonts.google.com/specimen/Lexend+Deca");
 
 @import "reset.css";
+@import "bootstrap";
+@import "navbar.css";
 
 :root {
   /* _typography */
@@ -13,12 +15,12 @@
   --secondary-transparent-white: hsla(0, 0%, 100%, 0.75);
   --secondary-transparent-slight-white: hsla(0, 0%, 100%, 0.6);
 
-  --light-paragraph: "Inter", sans-serif;
-  --dark-paragraph: "Lexend Deca", sans-serif;
-
   /* layouts */
-  --mobile-breakpoint: 375px;
-  --mobile-breakpoint: 1440px;
+  --very-small: 320px;
+  --small-breakpoint: 480px;
+  --medium-breakpoint: 720px;
+  --large-breakpoint: 960px;
+  --wide-breakpoint: 1200px;
 }
 
 /* Set core root defaults */
