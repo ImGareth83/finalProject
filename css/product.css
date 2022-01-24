@@ -1,0 +1,14 @@
+* {
+  background-color: #272727;
+  color: #eff1f3;
+}
+
+.container {
+  background-color: #272727;
+  color: #eff1f3;
+}
+
+.card > img {
+  width: 250px;
+  height: 250px;
+}
