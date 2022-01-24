@@ -7,13 +7,21 @@
 
 :root {
   /* _typography */
-  --primary-dark-blue: hsl(233, 47%, 7%);
-  --primary-desaturated-blue: hsl(244, 38%, 16%);
-  --primary-soft-violet: hsl(277, 64%, 61%);
 
-  --secondary-white: hsl(0, 0%, 100%);
-  --secondary-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --primary-matt-grey: hsl(0, 0%, 15%);
+  --primary-yellow: hsl(45, 99%, 70%);
+  --primary-cyan: hsl(188, 100%, 36%);
+
+  --secondary-grey: hsl(250, 6%, 43%);
+  --secondary-transparent-grey: hsla(250, 6%, 43%, 0.75);
+  --secondary-transparent-slight-grey: hsla(250, 6%, 43%, 0.6);
+
+  --secondary-white: hsl(210, 14%, 95%);
+  --secondary-transparent-white: hsla(210, 10%, 95%, 0.75);
   --secondary-transparent-slight-white: hsla(0, 0%, 100%, 0.6);
+
+  --light-paragraph: "Inter", sans-serif;
+  --dark-paragraph: "Lexend Deca", sans-serif;
 
   /* layouts */
   --very-small: 320px;
