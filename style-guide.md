@@ -2,10 +2,13 @@
 
 ## Layout
 
+### Breakpoints
 The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
+- very-small: 320px;
+- small-breakpoint: 480px;
+- large-breakpoint: 960px;
+- medium-breakpoint: 720px;
+- wide-breakpoint: 1200px;
 
 ## Colors
 
