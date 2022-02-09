@@ -1,8 +1,6 @@
-@import url("https://fonts.google.com/specimen/Inter");
-@import url("https://fonts.google.com/specimen/Lexend+Deca");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Lexend+Deca:wght@400;500;600;700;800;900&display=swap');
 
 @import "reset.css";
-@import "bootstrap";
 @import "navbar.css";
 
 :root {
