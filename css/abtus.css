@@ -4,6 +4,12 @@ body {
   background-color: #272727;
 
 }
+
+.navbar {
+  background-color: #272727;
+  color: #eff1f3;
+}
+
 header .carousel-inner .item {
   height: 100vh;
 }
@@ -35,6 +41,9 @@ header .carousel-inner .item img {
 
 .icon {
     padding-left: 1.5px;
+    display: inline-block;
+    max-width:20px;
+    max-height:20px;
 }
 
 .card-title {
@@ -57,6 +66,14 @@ header .carousel-inner .item img {
 }
 
 
+
+a:hover 
+{ text-decoration: none; 
+}
+
+
+
+
 .brands {
     justify-content: center;
     color: #009fb7;
@@ -73,3 +90,20 @@ header .carousel-inner .item img {
     padding: 5px;
     justify-content: space-evenly;
 }
+
+/* navbar css */
+.navbar-custom {
+  background: var(--primary-matt-grey) !important;
+}
+
+.navbar-brand {
+  color: var(--primary-yellow) !important;
+}
+
+.nav-link {
+  color: var(--secondary-white) !important;
+  padding-left:5px;
+  padding-right:5px;
+ 
+}
+
