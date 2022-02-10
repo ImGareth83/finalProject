@@ -4,22 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <!-- JS -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="css/product.css" />
     <title>Product Page</title>
   </head>
   <body>
+    
     <!-- Nav start -->
     <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
       <div class="container-fluid">
@@ -41,165 +34,69 @@
               </ul>
           </div>
       </div>
-  </nav>
+    </nav>
     <!-- Nav end -->
 
-    <!-- gpu container start -->
+    <!-- Start of GPU container  -->
     <div class="container-fluid">
       <div class="row d-flex justify-content-center">
         <h5 class="card-header text-center pt-2" style="width: 100%">
           GPU Selection
         </h5>
-        <div class="card-group">
-          <!-- item1 start -->
-          <div class="card col-lg-3 col-md-6 col-12 border">
-            <img
-              src="/imgs/products/asusGTX3090.jpg"
-              class="card-img-top"
-              alt="asus gtx3090"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Asus GTX3090</h5>
-              <p class="card-text">Description</p>
-              <p class="text-card">Price + Shipping</p>
-              <p class="text-card">Amount sold/ average reviews</p>
-              <p class="card-text">Quantity available</p>
-            </div>
-          </div>
-          <!-- item1 end -->
-
-          <!-- item2 start -->
-          <div class="card col-lg-3 col-md-6 col-12 border">
-            <img
-              src="imgs/products/msiGTX3090.jpg"
-              class="card-img-top"
-              alt="msi gtx3090"
-            />
-            <div class="card-body">
-              <h5 class="card-title">MSI GTX3090</h5>
-              <p class="card-text">Description</p>
-              <p class="text-card">Price + Shipping</p>
-              <p class="text-card">Amount sold/ average reviews</p>
-              <p class="card-text">Quantity available</p>
-            </div>
-          </div>
-          <!-- item2 end -->
-
-          <!-- item3 start -->
-          <div class="card col-lg-3 col-md-6 col-12 border">
-            <img
-              src="imgs/products/gigabyteGTX3090.jpg"
-              class="card-img-top"
-              alt="gigabyte gtx3090"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Gigabyte GTX 3090</h5>
-              <p class="card-text">Description</p>
-              <p class="text-card">Price + Shipping</p>
-              <p class="text-card">Amount sold/ average reviews</p>
-              <p class="card-text">Quantity available</p>
-            </div>
-          </div>
-          <!-- item3-end -->
-
-          <!-- item4 start -->
-          <div class="card col-lg-3 col-md-6 col-12 border">
-            <img
-              src="imgs/products/evgaGTX3090.jpg"
-              class="card-img-top"
-              alt="evga gtx3090"
-            />
-            <div class="card-body">
-              <h5 class="card-title">EVGA GTX3090</h5>
-              <p class="card-text">Description</p>
-              <p class="text-card">Price + Shipping</p>
-              <p class="text-card">Amount sold/ average reviews</p>
-              <p class="card-text">Quantity available</p>
-            </div>
-          </div>
-          <!-- item4 end -->
-      </div>
+        <div class="card-group" id="row" >
+          <!-- Cards generated dynamically using JS -->
+      </div>  
+      <!--End of row--> 
     </div>
-    <!-- gpu container end -->
+    <!-- End of GPU List item div -->
 
-    <!-- cpu container start -->
-    <div class="container-fluid">
-      <div class="row d-flex justify-content-center">
-        <h5 class="card-header text-center pt-2" style="width: 100%">
-          CPU Selection
-        </h5>
-        <div class="card-group">
-          <!-- item1 start -->
-          <div class="card col-lg-3 col-md-6 col-12 border">
-            <img
-              src="/imgs/products/amd5950x.jpg"
-              class="card-img-top"
-              alt="amd 5950x"
-            />
-            <div class="card-body">
-              <h5 class="card-title">AMD 5950X</h5>
-              <p class="card-text">Description</p>
-              <p class="text-card">Price + Shipping</p>
-              <p class="text-card">Amount sold/ average reviews</p>
-              <p class="card-text">Quantity available</p>
-            </div>
-          </div>
-          <!-- item1 end -->
+    
 
-          <!-- item2 start -->
-          <div class="card col-lg-3 col-md-6 col-12 border">
-            <img
-              src="/imgs/products/amd5700G.jpg"
-              class="card-img-top"
-              alt="amd 5700G"
-            />
-            <div class="card-body">
-              <h5 class="card-title">AMD 5700G</h5>
-              <p class="card-text">Description</p>
-              <p class="text-card">Price + Shipping</p>
-              <p class="text-card">Amount sold/ average reviews</p>
-              <p class="card-text">Quantity available</p>
-            </div>
-          </div>
-          <!-- item2 end -->
-
-          <!-- item3 start -->
-          <div class="card col-lg-3 col-md-6 col-12 border">
-            <img
-              src="/imgs/products/amd5600G.jpg"
-              class="card-img-top"
-              alt="amd 5950x"
-            />
-            <div class="card-body">
-              <h5 class="card-title">AMD 5600G</h5>
-              <p class="card-text">Description</p>
-              <p class="text-card">Price + Shipping</p>
-              <p class="text-card">Amount sold/ average reviews</p>
-              <p class="card-text">Quantity available</p>
-            </div>
-          </div>
-          <!-- item3 end -->
-
-          <!-- item4 start -->
-          <div class="card col-lg-3 col-md-6 col-12 border">
-            <img
-              src="/imgs/products/amd3200G.jpg"
-              class="card-img-top"
-              alt="amd 3200G"
-            />
-            <div class="card-body">
-              <h5 class="card-title">AMD 3200G</h5>
-              <p class="card-text">Description</p>
-              <p class="text-card">Price + Shipping</p>
-              <p class="text-card">Amount sold/ average reviews</p>
-              <p class="card-text">Quantity available</p>
-            </div>
-            <!-- item4 end -->
-          </div>
+    <!-- Modal popup for each product when user clicks on "More" button -->
+    <div
+    class="modal fade"
+    id="productModal"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="productModalLabel"
+    aria-hidden="true"
+    >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <p id="itemName">Dummy Item Name</p>
+        </div>
+        <div class="modal-body">
+          <img
+            id="itemImage"
+            src=""
+            class="card-img-top"
+            alt="Product Item Image"
+          />
+          <hr />
+          <b>Description:</b><span id="itemDescription"> Dummy Item Description</span>
+          <br />
+          <b>Price:</b><span id="itemPrice"> 66666</span>
+          <b>Sold:</b><span id="itemSold"> Dummy Item Sold</span>
+          <b>Available:</b><span id="itemQuantity"> Dummy Item Quantity</span>
+        </div>
+        <div class="modal-footer">
+          <a class="btn btn-primary" data-dismiss="modal">Close</a>
         </div>
       </div>
     </div>
-    <!-- cpu container end -->
+    <!-- End Of Modal Popup  -->
+    </div>
+    
+  
      
+    
+    <script src="/js/productController.js"></script>
+    <script src="/js/displayProduct.js"></script>
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
