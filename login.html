@@ -38,10 +38,10 @@
                             <a class="nav-link" aria-current="page" href="aboutUs.html">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="product.html">Computer Parts</a>
+                            <a class="nav-link" href="computerParts.html">Computer Parts</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="login.html">Admin Login</a>
+                            <a class="nav-link" href="adminLogin.html">Admin Login</a>
                         </li>
                     </ul>
                 </div>
@@ -70,28 +70,33 @@
 
     <!--Username & Password-->
     <section id="addbox">
-        <div class="container">
+        <div class="container"></div>
+            <br>
             <div class="row">
-                <div class="col"></div>
-                <div class="col">
+                <div class="col-sm"></div>
+                <div class="col-sm">
         <h1>Username</h1>
         <br>
-        <form onSubmit="event.preventDefault(); addUserNameForm();"></form>
-        <p>
-            <label for="addName">Username:</label>
-            <input type="text" id="addName" names="addName" 
-            placeholder="Add a username" required>
-        </p>
-        <br>
-        <p>
-            <label for="password"><br>Password:</label>
-            <input type="text" id="password" names="password" 
-            placeholder="Password" required>
-        </p>
-        <br>
-        <p>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </p>
+        <form action="/login" method = "post">
+            <div class="form-group">
+                <label for="addName">Username:</label>
+                <input type="text" class="form-control" id="username" name="username" aria-describedly="NameHelp" required>
+                <small id="NameHelp" class="form-text text-muted"> We'll never share your username with anyone else. </small>
+            </div>
+            
+            <br>
+            <div class="form-group">
+                <label for="password">Username:</label>
+                <input type="password" class="form-control" id="password" name="password" required>
+                <small id="NameHelp" class="form-text text-muted"> We'll never share your username with anyone else. </small>
+            </div>
+
+            <br>
+            <div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+        <p>   </p>
     </div>
     <div class="col"></div>
 </div>
