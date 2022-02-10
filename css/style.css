@@ -2,12 +2,13 @@
 
 @import "reset.css";
 @import "navbar.css";
+@import "button.css";
 
 :root {
   /* _typography */
 
-  --primary-matt-grey: hsl(0, 0%, 15%);
-  --primary-yellow: hsl(45, 99%, 70%);
+  --primary-matt-grey: hsl(0, 0%, 0%);
+  --primary-yellow: hsl(45, 26%, 55%);
   --primary-cyan: hsl(188, 100%, 36%);
 
   --secondary-grey: hsl(250, 6%, 43%);
@@ -32,6 +33,10 @@
 /* Set core root defaults */
 html {
   font-size: 62.5%;
+}
+
+body { 
+  background: var(--primary-matt-grey); 
 }
 
 .h5 {
